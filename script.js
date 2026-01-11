@@ -7,7 +7,7 @@ const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const number = "0123456789";
 const symbol = "@#$%^&*()_+~|{}[]<>/-=";
-
+let year = document.querySelector(".year").textContent = new Date().getFullYear();
 const allChars = upperCase + lowerCase + number + symbol;
 
 function createPassword(){
